@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: mediaflow-proxy
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: API_PASSWORD
+        value: valentino02
